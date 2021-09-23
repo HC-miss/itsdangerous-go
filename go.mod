@@ -1,2 +1,2 @@
-module "itsdangerous"
+module "itsdangerous-go"
 

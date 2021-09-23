@@ -6,8 +6,8 @@ import (
 	"crypto/sha1"
 	"fmt"
 	"hash"
-	"itsdangerous"
-	"itsdangerous/encoding"
+	"itsdangerous-go"
+	"itsdangerous-go/encoding"
 )
 
 var (

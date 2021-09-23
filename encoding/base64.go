@@ -3,7 +3,7 @@ package encoding
 import (
 	"bytes"
 	"encoding/base64"
-	"itsdangerous"
+	"itsdangerous-go"
 )
 
 func BytesCombine(valueBytes ...[]byte) []byte {

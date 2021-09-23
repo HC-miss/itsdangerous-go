@@ -5,13 +5,13 @@ import (
 	"encoding/binary"
 	"fmt"
 	"hash"
-	"itsdangerous"
-	"itsdangerous/encoding"
+	"itsdangerous-go"
+	"itsdangerous-go/encoding"
 	"time"
 )
 
 // Works like the regular Signer but also records the time of the signing and can be used to
-// expire signatures. The Unsign method can raise itsdangerous.BadTimeSignature if the unsigning failed
+// expire signatures. The Unsign method can raise itsdangerous-go.BadTimeSignature if the unsigning failed
 // because the signature is expired
 type TimestampSigner struct {
 	Signer
